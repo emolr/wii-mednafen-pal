@@ -264,6 +264,7 @@ static void FindBestResolution(int nominal_width, int nominal_height, int *res_x
   static const resolution_pairs GoodResolutions[] =
   {
     { 640, 480 },
+    { 768, 576 },
     { 800, 600 },
     { 1024, 768 },
   };
