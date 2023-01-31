@@ -50,7 +50,7 @@ int wii_sdl_handle_init() {
     }
 
     back_surface = SDL_SetVideoMode(
-        768, 576, 8, SDL_HWSURFACE | SDL_HWPALETTE | SDL_FULLSCREEN);
+        640, 480, 8, SDL_HWSURFACE | SDL_HWPALETTE | SDL_FULLSCREEN);
 
     if (!back_surface) {
         return 0;

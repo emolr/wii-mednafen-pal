@@ -37,11 +37,11 @@
 #include "wii_main.h"
 
 // Wii information
-#define WII_WIDTH 768
-#define WII_HEIGHT 576
+#define WII_WIDTH 640
+#define WII_HEIGHT 480
 
-#define WII_WIDTH_DIV2 384
-#define WII_HEIGHT_DIV2 288
+#define WII_WIDTH_DIV2 320
+#define WII_HEIGHT_DIV2 240
 
 // Virtual boy size
 #define VB_WIDTH 384
